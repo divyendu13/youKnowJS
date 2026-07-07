@@ -20,3 +20,13 @@ console.log(message);
 const exerciseTimeMints = 20;
 const messag = exerciseTimeMints < 30 ? " you need to try harder!!!" : "Doing Good!!!"
 console.log(messag)
+
+// ---- complex ternary -----
+
+const playerguess = 4;
+const correctguess = 6;
+
+const answer = playerguess < correctguess ? "Too Low!" 
+                : playerguess > correctguess ? "Too High!"
+                : "Exactly Right!"
+console.log(answer)
